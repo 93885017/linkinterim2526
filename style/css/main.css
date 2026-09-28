@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dfdded;
+}
+
+@font-face {
+    font-family: 'ArialRegular';
+    src: url('../../style/Fonts/ENG/Arial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ArialBold';
+    /* src: url('../../style/Fonts/ENG/Arial Bold.ttf') format('truetype'); */
+    src: url('../../style/Fonts/ENG/Acumin-Variable-Concept.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'FontTC';
+    src: url('../../style/Fonts/TC/DFHeiHK-W7.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontSC';
+    /* src: url('../../style/Fonts/TC/DFHeiHK-W7.otf') format('truetype'); */
+    /* src: url('../../style/Fonts/SC/MSJHBD.TTC') format('truetype'); */
+    src: url('../../style/Fonts/SC/Microsoft JhengHei Bold.ttf') format('truetype');
+}
+
+body.lang-tc {
+    font-family: 'FontTC', sans-serif;
+}
+
+body.lang-sc {
+    font-family: 'FontSC', sans-serif;
+}
+
+body.lang-en {
+    font-family: 'ArialBold', sans-serif;
+}
+
+body.bg-video {
+    background-color: #dfdded !important;
+}
+
+.bg-login {
+    background-color: #dedaed !important;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.main-container {
+    width: 100%;
+    /* max-width: 1900px; */
+    margin: 0 auto;
+}
+
+.full-img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mobile-section-lanscape {
+    display: none;
+}
+
+.bnt-submit {
+    background-color: #ffffff;
+    padding: 4px 16px;
+    width: fit-content;
+    border: 2px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.row {
+    padding: 5px 0;
+}
+
+.select-style {
+    color: #000 !important;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    font-size: 16px;
+    appearance: none;
+    /* Remove default appearance */
+    -webkit-appearance: none;
+    /* Remove default appearance for Chrome/Safari */
+    -moz-appearance: none;
+    /* Remove default appearance for Firefox */
+    background: url('../../style/images/select-arrow.jpg') no-repeat;
+    /* Add custom arrow */
+    background-size: 3%;
+    background-position-x: 98.2%;
+    background-position-y: 59%;
+    background-color: white;
+}
+
+.login-page {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.login-page img {
+    width: 100%;
+}
+
+.acknowledae-field {
+    margin-top: 1%;
+}
+
+.btn-ok-field {
+    margin-top: 2%;
+}
+
+.btn-ok {
+    background: #7b7979;
+    padding: 4px 25px;
+}
+
+.inut-label {
+    /* margin-bottom: 1px;
+    font-size: 16px; */
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .col-style {
+        margin-bottom: 7%;
+    }
+/* 
+    .login-page {
+        padding: 3% 3.8%;
+    } */
+}
+
+.header-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: transparent;
+}
+
+.header-top-field {
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-top-field img {
+    width: 100%;
+}
+
+img.logo {
+    width: 100%;
+}
+
+.header-bar {
+    background-color: #343176;
+    color: white;
+    width: 100%;
+    margin-bottom: 1%;
+    line-height: 20px;
+}
+
+.header-inner {
+    padding: 8px 2.2%;
+    max-width: 1921px;
+    margin: 0 auto;
+}
+
+.header-bar .left {
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-bar .right {
+    float: right;
+    font-size: 12px;
+}
+
+.lang-field {
+    position: absolute;
+    bottom: 2.5%;
+    right: 2.5%;
+    color: white;
+    z-index: 99;
+    font-size: 12px;
+}
+
+.lang-field.lang-en {
+    font-family: 'ArialBold';
+    letter-spacing: 0.2pt;
+}
+
+.lang-field.lang-tc {
+    bottom: 3.3%;
+}
+
+.lang-field.lang-sc {
+    bottom: 3.3%;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.lang-selection {
+    border: 0;
+}
+
+button.btn.btn-secondary.btn-ok {
+    padding: 10px 40px;
+    background-color: #95a3a9;
+    font-size: 1vw;
+}
+
+::placeholder {
+    /* Most modern browsers support this */
+    color: #bebebe;
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #bebebe;
+    font-size: 12px;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #bebebe;
+    font-size: 12px;
+}
+
+select.lang-selection {
+    appearance: none;
+    /* Remove default appearance */
+    -webkit-appearance: none;
+    /* Remove default appearance for Chrome/Safari */
+    -moz-appearance: none;
+    /* Remove default appearance for Firefox */
+    background: url('../../style/images/lang-select-arrow.jpg') no-repeat right center;
+    /* Add custom arrow */
+    color: white !important;
+    background-size: 22%;
+    background-color: transparent;
+    font-size: 13px;
+    width: 85px;
+}
+
+select.lang-selection.lang-en {
+    font-family: 'ArialBold';
+    letter-spacing: 0.2pt;
+}
+
+.required-txt {
+ font-family: 'FontSC', sans-serif;   
+}
+
+select option {
+    color: black !important;
+}
+
+.lang-selection {
+    color: black !important;
+}
+
+/* input,
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+    letter-spacing: 5px;
+} */
+
+.desktop-image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lang-selection.lang-desktop-select {
+    font-size: 12px;
+}
+
+.lang-desktop-select.lang-1 {
+    width: 43px;
+}
+
+.lang-desktop-select.lang-2 {
+    width: 57px;
+}
+
+.lang-desktop-select.lang-3 {
+    width: 36px;
+}
+
+.lang-desktop-select.lang-4 {
+    width: 50px;
+}
+
+.lang-desktop-select.lang-sc {
+    width: 36px;
+}
+
+.lang-desktop-select.lang-en {
+    width: 62px;
+}
+
+.lang-desktop-select.lang-tc {
+    width: 36px;
+}
+
+.lang-selection.lang-mobile-select {
+    font-size: 10px;
+}
+
+.lang-mobile-select.lang-1 {
+    width: 35px;
+}
+
+.lang-mobile-select.lang-2 {
+    width: 50px;
+}
+
+.lang-mobile-select.lang-3 {
+    width: 28px;
+}
+
+.lang-mobile-select.lang-4 {
+    width: 40px;
+}
+
+.lang-mobile-select.lang-sc {
+    width: 33px;
+}
+
+.lang-mobile-select.lang-en {
+    width: 50px;
+}
+
+.lang-mobile-select.lang-tc {
+    width: 33px;
+}
+
+.main-container.video {
+    padding: 0 1%;
+    position: relative;
+}
+
+.select-lang-container{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    z-index: 1000;
+}
+
+.select-lang-options {
+    -webkit-appearance: none; /* Remove default iOS styling */
+    -moz-appearance: none;    /* Remove default Firefox styling */
+    appearance: none;         /* Remove default styling for modern browsers */
+    border-radius: 0;         /* Remove rounded corners */
+    padding: 4px;
+    background: white;
+    border: 1px solid black;
+    color: black !important;
+    box-sizing:border-box;
+}
+
+.select-lang-options option:first-of-type {
+    -webkit-appearance: none; /* Remove default iOS styling */
+    -moz-appearance: none;    /* Remove default Firefox styling */
+    appearance: none;         /* Remove default styling for modern browsers */
+    border-radius: 0;         /* Remove rounded corners */
+}
+
+.select-lang-options option:last-of-type {
+    -webkit-appearance: none; /* Remove default iOS styling */
+    -moz-appearance: none;    /* Remove default Firefox styling */
+    appearance: none;         /* Remove default styling for modern browsers */
+    border-radius: 0;         /* Remove rounded corners */
+}
+
+.video-button-container {
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.video-button-container .btn {
+    padding: 4px 16px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.video-button-container .btn.s1 {
+    background: #614989;
+    color: white;
+    cursor: pointer;
+}
+
+.video-button-container .btn.s2 {
+    width: 300px;
+}
+
+.video-button-container .btn.s2 select{
+    width: 100%;
+    height: 28px;
+}
+
+.video-button-container .btn.s2.placyback{
+    width: auto;
+}
+
+.video-button-container .btn.s2.placyback select{
+    width: auto;
+    height: auto;
+}
+
+
+.notice-msg-field {
+    margin-bottom: 12px;
+}
+
+.company-field {
+    margin-top: 40px;
+}
+
+.policy-field {
+    margin-top: 40px;
+}
+
+.policy-view {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.policy-field > button{
+    padding: 3px 5px 0px 5px;
+}
+
+.modal-content {
+    font-size: 1vw;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 759px) {
+
+    /* CSS rules for mobile devices go here */
+    .policy-field {
+        margin-top: 5%;
+    }
+
+    .modal-content {
+        font-size: 12px !important;
+    }
+
+    button.btn.btn-secondary.btn-ok {
+        font-size: 12px !important;
+    }
+
+    .select-lang-container{
+        position: relative;
+        padding-left: 1%;
+        float: right;
+    }
+
+    .video-button-container .btn.s2 {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .video-button-container .btn {
+        width: 60%;
+    }
+}

@@ -1,0 +1,62 @@
+.desktop-section {
+    display: block;
+}
+
+.mobile-section {
+    display: none;
+}
+
+/* Styles for desktop devices */
+@media only screen and (min-width: 760px) {
+    /* CSS rules for desktop devices go here */
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 759px) {
+    /* CSS rules for mobile devices go here */
+
+    .desktop-section {
+        display: none;
+    }
+
+    .mobile-section {
+        display: block;
+    }
+
+    .lang-options-btn {
+        width: 19% !important;
+        /* border: 1px solid red !important; */
+    }
+
+    .lang-options-content {
+        width: 15% !important;
+        bottom: -91% !important;
+    }
+
+    .lang-options-text {
+        padding: 2px !important;
+        font-size: 16px !important;
+    }
+
+    .mobile-register-form {
+        color: #191333;
+        padding: 4% 6%;
+        width: 100%;
+    }
+
+    .mobile-register-form input {
+        width: 100%;
+    }
+
+    .policy-field {
+        margin-top: 5%;
+    }
+
+    .modal-content {
+        font-size: 12px !important;
+    }
+
+    button.btn.btn-secondary.btn-ok {
+        font-size: 12px !important;
+    }
+}
